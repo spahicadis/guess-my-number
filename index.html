@@ -104,9 +104,16 @@
       padding: 15px 50px;
       font-family: inherit;
       font-size: 22px;
+      cursor: pointer;
     }
 
-    
+    .correct {
+      background-color: green;
+    }
+
+    .reseted {
+      background-color: #222;
+    }
 
 
   </style>
@@ -114,7 +121,7 @@
 <body>
 
   <nav>
-    <button class="again btn-again">Again!</button>
+    <button class="again">Again!</button>
     <p class="info">Between 1 and 20</p>
   </nav>
 
@@ -136,8 +143,8 @@
    
     <div class="stats">
       <p class="status">Start guessing...</p>
-      <p class="score">💯 Score: 20</p>
-      <p class="highscore">🥇 Highscore: 0</p>
+      <p>💯 Score:<span class="score">20</span></p>
+      <p>🥇 Highscore: <span class="highScore">0</span></p>
     </div> 
 
   
