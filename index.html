@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess My Number</title>
+  <style>
+    body {
+      background-color: #222;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .again {
+      border: none;
+      background-color: whitesmoke;
+      color: black;
+      font-family: inherit;
+      font-weight: 600;
+      font-size: 22px;
+      padding: 0px 30px;
+    }
+
+    .again:hover {
+      cursor: pointer;
+      opacity: 0.6;
+    }
+
+     .info {
+      font-size: 20px;
+      font-family: inherit;
+      font-weight: 600;
+      color: white;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+
+    h1 {
+      color: white;
+      word-spacing: 12px;
+      font-family: inherit;
+    }
+
+    .guess {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      margin-bottom: 120px;
+
+    }
+
+    hr {
+      margin-top: 55px;
+      width: 100%;
+      z-index: 0;
+    }
+
+    .randomNumber {
+      z-index: 99;
+      border: 2px solid white;
+      width: 100px;
+      height: 100px;
+      margin-top: -60px;
+      background-color: white;
+      
+      
+    }
+
+    .randomNumberIs {
+      margin: 0;
+      margin-top: 10px;
+      margin-left: 35px;
+      font-size: 50px;
+    }
+
+    .info {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      column-gap: 20px;
+      align-items: center;
+      
+    }
+
+    input {
+      border: 2px solid white;
+      background-color: black;
+      color: white;
+      padding: 25px 25px;
+    }
+
+    .action {
+      margin-top: 45px;
+      display: block;
+      padding: 15px 50px;
+      font-family: inherit;
+      font-size: 22px;
+    }
+
+    
+
+
+  </style>
+</head>
+<body>
+
+  <nav>
+    <button class="again btn-again">Again!</button>
+    <p class="info">Between 1 and 20</p>
+  </nav>
+
+  <div class="hero">
+    <h1>Guess My Number</h1>
+    <div class="guess">
+    <hr/>
+    <div class="randomNumber">
+      <p class="randomNumberIs">?</p>
+    </div>
+    </div>
+  </div>
+
+  <div class="info">
+    <div class="user">
+      <input type="number" class="input-css input-js">
+      <button class="action btn-action-js" >Check!</button>
+    </div>
+   
+    <div class="stats">
+      <p class="status">Start guessing...</p>
+      <p class="score">💯 Score: 20</p>
+      <p class="highscore">🥇 Highscore: 0</p>
+    </div> 
+
+  
+  
+  <script src="script.js"></script>
+</body>
+</html>
