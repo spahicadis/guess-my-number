@@ -9,5 +9,5 @@
 2. Enter your guess in the input field.
 3. Click the "Check" button to submit your guess.
 4. The game will provide feedback on whether your guess is too high, too low, or correct.
-5. The game keeps track of your score and the number of attempts.
+5. The game keeps track of your score.
 6. You can start a new game at any time by clicking the "Again!" button.
