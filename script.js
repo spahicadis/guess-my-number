@@ -1,3 +1,5 @@
+// srediti kod po modernim standardnima. Koncepti biding, querySelectore postaviti globalno jer je to skupa radnja
+
 let computerNumber = generateRandomNumber();
 let userNumber = null;
 let score = 20;
