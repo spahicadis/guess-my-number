@@ -50,7 +50,6 @@ function resetScreen() {
   randomNumberIs.innerHTML = `?`;
   status.innerHTML = `Start gusessing...`
   currentScore.innerHTML = 20;
-  finishScore.innerHTML = `0`
   inputElement.value = "";
 
 
